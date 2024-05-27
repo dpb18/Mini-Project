@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Study Website</title>
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">Jorhat Engineering College</a>
+
+        <i class='bx bx-menu' id="menu-icon"></i>
+      
+        <nav class="navbar">
+            <a href="index.html" >Home</a>
+            <a href="#"onclick="openNav1()" > Astu Syllabus</a>
+            <a href="#" onclick="openNav2()">Study Resources</a>
+            <a href="#Study Material" onclick="openNav2()">Study Material</a>
+            <a href="about.html">About Us</a>
+            <a href="#Contact Us">Contact Us</a>
+            <button onclick="myFunction()">Change Mode</button>
+        </nav>
+     
+    </header>
+    <div id="mySidebar" class="sidebar">
+        <a href="javascript:void(0)" class="closebtn1" onclick="closeNav1()" >&times;</a>
+        <div class="overlay-content1">
+        <a href="https://astu.ac.in/?page_id=10468">Mechanical Engineering</a>
+        <a href="https://astu.ac.in/?page_id=10460">Civil Engineering</a>
+        <a href="https://astu.ac.in/?page_id=10490">Electrical Engineering</a>
+        <a href="https://astu.ac.in/?page_id=10488">Computer Science and Engineering</a>
+        <a href="https://astu.ac.in/?page_id=10494">Instrumentation Engineering</a>
+        </div>
+      </div>
+      <div id="mySidebar1" class="sidebar1">
+        <a href="javascript:void(0)" class="closebtn1" onclick="closeNav2()" >&times;</a>
+        <div class="overlay-content2">
+        <a href="mechanical.html">Mechanical Engineering</a>
+        <a href="">Civil Engineering</a>
+        <a href="">Electrical Engineering</a>
+        <a href="">Computer Science and Engineering</a>
+        <a href="">Instrumentation Engineering</a>
+        </div>
+      </div>
+    
+
+      <section class="academics" id="academic">
+        <h2 class="heading">Choose Your <span>Semester</span></h2>
+
+    <div class="academics-container">
+        <div class="academics-box">
+            <i class='bx bx-book-reader'></i>
+            <h3>1st Semester</h3>
+            <a href="2B materials.html" class="btn">Open</a>
+        </div>
+        <div class="academics-box">
+            <i class='bx bx-book-reader'></i>
+            <h3>2nd Semester</h3>
+            <a href="1A materials.html" class="btn">Open</a>
+        </div>
+        <div class="academics-box">
+            <i class='bx bx-book-reader'></i>
+            <h3>3rd Semester</h3>
+            <a href="" class="btn">Open</a>
+        </div>
+
+    </div>
+    <div class="academics-container1">
+        <div class="academics-box1">
+            <i class='bx bx-book-reader'></i>
+            <h3>4th Semester</h3>
+            <a href="" class="btn">Open</a>
+        </div>
+        <div class="academics-box1">
+            <i class='bx bx-book-reader'></i>
+            <h3>5th Semester</h3>
+            <a href="" class="btn">Open</a>
+        </div>
+        <div class="academics-box1">
+            <i class='bx bx-book-reader'></i>
+            <h3>6th Semester</h3>
+            <a href="" class="btn">Open</a>
+        </div>
+    </div>
+    <div class="academics-container2">
+        <div class="academics-box1">
+            <i class='bx bx-book-reader'></i>
+            <h3>7th Semester</h3>
+            <a href="https://drive.google.com/file/d/15rToAHx0vweg7Te8t57daqshHoJsX33k/view?usp=sharing" class="btn">Open</a>
+        </div>
+        <div class="academics-box1">
+            <i class='bx bx-book-reader'></i>
+            <h3>8th Semester</h3>
+            <a href="" class="btn">Open</a>
+        </div>
+    </div>
+</section>
+    <div class="footer">
+        <div class="list">
+            <ul>
+                <li>
+                    <h2>COURSES</h2><br>
+                    <a onclick="openNav1()">B.TECH</a><br><br>
+                    <a>M.TECH</a><br><br>
+                    <a>MCA</a><br><br>
+                     
+
+                </li>
+            </ul>
+        </div>
+
+        <div class="list">
+            <ul>
+                <li>
+                    <h2>EXAMS</h2><br>
+                    <a>CIE</a><br><br>
+                    <a>END SEM EXAM</a><br><br>
+                     
+
+                </li>
+            </ul>
+        </div>
+
+        <div class="list">
+            <ul>
+                <li>
+                    <h2>EXAM PREPARATION</h2><br>
+                    <a>PYQ</a><br><br>
+                    <a>NOTES</a><br><br>
+                    <a>BOOKS</a><br><br>
+                     
+
+                </li>
+            </ul>
+        </div>
+
+        <div class="list">
+            <ul>
+                <li>
+                    <h2>CONTACT US</h2><br>
+                    <a>PHONE: 9864534725</a><br><br>
+                    <a>ADDRESS: JORHAT ENGINNERING COLLEGE</a><br><br>
+                     
+
+                </li>
+            </ul>
+        </div>
+    </div>
+    <script src="/index.js" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Study Website</title>
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style1.css">
+    <link rel="stylesheet" href="/swiper-bundle.min.css">
+    
+</head>
+<body>
+    
+    <header class="header" style="padding: 3.5rem 9%;">
+        <a href="#" class="logo">Jorhat Engineering College</a>
+
+        <i class='bx bx-menu' id="menu-icon"></i>
+      
+        <nav class="navbar">
+            <a href="index.html" >Home</a>
+            <a href="#"onclick="openNav1()" > Astu Syllabus</a>
+            <a href="#" onclick="openNav2()">Study Resources</a>
+            <a href="#Study Material" onclick="openNav3()" >Study Material</a>
+            <a href="about.html">About Us</a>
+            <a href="#Contact Us">Contact Us</a>
+            <button onclick="myFunction()">Change Mode</button>
+        </nav>
+     
+    </header>
+    <div id="mySidebar" class="sidebar">
+        <a href="javascript:void(0)" class="closebtn1" onclick="closeNav1()" >&times;</a>
+        <div class="overlay-content1">
+        <a href="https://astu.ac.in/?page_id=10468">Mechanical Engineering</a>
+        <a href="https://astu.ac.in/?page_id=10460">Civil Engineering</a>
+        <a href="https://astu.ac.in/?page_id=10490">Electrical Engineering</a>
+        <a href="https://astu.ac.in/?page_id=10488">Computer Science and Engineering</a>
+        <a href="https://astu.ac.in/?page_id=10494">Instrumentation Engineering</a>
+        </div>
+      </div>
+      <div id="mySidebar1" class="sidebar1">
+        <a href="javascript:void(0)" class="closebtn1" onclick="closeNav2()" >&times;</a>
+        <div class="overlay-content2">
+        <a href="mechanical.html" >Mechanical Engineering</a>
+        <a href="./civil.html">Civil Engineering</a>
+        <a href="electrical.html">Electrical Engineering</a>
+        <a href="cse.html">Computer Science and Engineering</a>
+        <a href="instru.html">Instrumentation Engineering</a>
+        </div>
+      </div>
+      <div id="mySidebar2" class="sidebar2">
+        <a href="javascript:void(0)" class="closebtn1" onclick="closeNav3()" >&times;</a>
+        <div class="overlay-content3">
+        <a href="mechanical materials.html" >Mechanical Engineering</a>
+        <a href="civil materials.html">Civil Engineering</a>
+        <a href="electrical material.html">Electrical Engineering</a>
+        <a href="cse materials.html">Computer Science and Engineering</a>
+        <a href="instru material.html">Instrumentation Engineering</a>
+        </div>
+      </div>
+    
+
+    <section class="home" id="home" >
+        <div class="home-content">
+            <h3> Welcome to </h3>
+            <h1>JEC Knowledge Nexus!</h1>
+            <h3>And this is <span>All You Need!</span></h3>
+
+            <div class="social-media">
+                <a href="#"><i class='bx bxl-facebook-circle' ></i></a>
+                <a href="#"><i class='bx bxl-instagram' ></i></a>
+            </div>
+            <a href="#" class="btn" onclick="openNav()">Get Started</a>
+        </div>
+        <div class="home-image">
+            <img src="/Photos/oie_jpg.png" style="border-radius: 2rem;">
+        </div>
+        
+        
+    </section>
+    <div id="myNav" class="overlay">
+
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      
+        <div class="overlay-content">
+          <a href="#">Study Materials</a>
+          <a href="#"onclick="closeNav1()" onclick="openNav2()" >Study Resources</a>
+          <a href="about.html">About Us</a>
+          <a href="#">Contact Us</a>
+        </div>
+      
+      </div>
+
+      <section id="about">
+
+        <div class="container">
+          <h2 class="heading" style="font-size: 5rem;">About<span>Us</span></h2>
+          <article class="card__article" style="margin: -180px;">
+             <div class="card__profile">
+                <h3 style="margin-bottom: 60px; font-size: 1.5rem;">Mrigakshi Saikia</h3>
+             </div>
+             
+             <div class="card__tooltip">
+                <div class="card__content">
+
+    
+                   <div class="card__data">
+                      <div class="card__image">
+                         <div class="card__mask">
+                            <img src="/oie_png_mini.png" alt="image" class="card__img">
+                         </div>
+                         
+                         <span class="card__status"></span>
+                      </div>
+    
+                      <h2 class="card__name" style="color: black;">Mrigakshi Saikia</h2>
+                      <h3 class="card__profession" style="color: black;">Web designer</h3>
+                      <i class='bx bxl-linkedin'></i>
+                      <i class='bx bxl-facebook' ></i>
+                      <i class='bx bxl-instagram' ></i>
+                  
+                      
+    
+                      <a href="#" class="card__button">
+                        <button style="padding: 1rem; font-size: 1.2rem;">Send Message</button>
+                      </a>
+                   </div>
+                </div>
+             </div>
+             
+          </article>
+          <article class="card__article" style="margin-left: 60rem;">
+            <div class="card__profile">
+               <h3 style="margin-bottom: 60px; font-size: 1rem;">Dhiraj Pratim Barman</h3>
+            </div>
+            
+            <div class="card__tooltip">
+               <div class="card__content">
+
+   
+                  <div class="card__data">
+                     <div class="card__image">
+                        <div class="card__mask">
+                           <img src="/oie_jpg2.png" alt="image" class="card__img">
+                        </div>
+                        
+                        <span class="card__status"></span>
+                     </div>
+   
+                     <h2 class="card__name" style="color: black;">Dhiraj Pratim Barman</h2>
+                     <h3 class="card__profession" style="color: black;">Web designer</h3>
+                     <i class='bx bxl-linkedin'></i>
+                     <i class='bx bxl-facebook' ></i>
+                     <i class='bx bxl-instagram' ></i>
+                 
+                     
+   
+                     <a href="#" class="card__button">
+                       <button style="padding: 1rem; font-size: 1.2rem;">Send Message</button>
+                     </a>
+                  </div>
+               </div>
+            </div>
+         </article>
+         <article class="card__article" style="margin-right: 60rem;">
+          <div class="card__profile">
+             <h3 style="margin-bottom: 60px; font-size: 1.5rem;">Bhaskar Boruah</h3>
+          </div>
+          
+          <div class="card__tooltip">
+             <div class="card__content">
+
+ 
+                <div class="card__data">
+                   <div class="card__image">
+                      <div class="card__mask">
+                         <img src="/bhaskar.png" alt="image" class="card__img">
+                      </div>
+                      
+                      <span class="card__status"></span>
+                   </div>
+ 
+                   <h2 class="card__name" style="color: black;">Bhaskar Boruah</h2>
+                   <h3 class="card__profession" style="color: black;">Web designer</h3>
+                   <i class='bx bxl-linkedin'></i>
+                   <i class='bx bxl-facebook' ></i>
+                   <i class='bx bxl-instagram' ></i>
+               
+                   
+ 
+                   <a href="#" class="card__button">
+                     <button style="padding: 1rem; font-size: 1.2rem;">Send Message</button>
+                   </a>
+                </div>
+             </div>
+          </div>
+          
+       </article>
+         
+          
+       </div>
+      
+ 
+      </section>
+      
+     
+
+    <div class="footer">
+        <div class="list">
+            <ul>
+                <li>
+                    <h2>COURSES</h2><br>
+                    <a onclick="openNav1()">B.TECH</a><br><br>
+                    <a>M.TECH</a><br><br>
+                    <a>MCA</a><br><br>
+                     
+
+                </li>
+            </ul>
+        </div>
+
+        <div class="list">
+            <ul>
+                <li>
+                    <h2>EXAMS</h2><br>
+                    <a>CIE</a><br><br>
+                    <a>END SEM EXAM</a><br><br>
+                     
+
+                </li>
+            </ul>
+        </div>
+
+        <div class="list">
+            <ul>
+                <li>
+                    <h2>EXAM PREPARATION</h2><br>
+                    <a>PYQ</a><br><br>
+                    <a>NOTES</a><br><br>
+                    <a>BOOKS</a><br><br>
+                     
+
+                </li>
+            </ul>
+        </div>
+
+        <div class="list">
+            <ul>
+                <li>
+                    <h2>CONTACT US</h2><br>
+                    <a>PHONE: 9864534725</a><br><br>
+                    <a>ADDRESS: JORHAT ENGINNERING COLLEGE</a><br><br>
+                     
+
+                </li>
+            </ul>
+        </div>
+    </div>
+    <script src="index.js" crossorigin="anonymous"></script>
+    <script src="/swiper-bundle.min.js" crossorigin="anonymous"></script>
+</body>
+</html>

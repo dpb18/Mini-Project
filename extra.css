@@ -1,0 +1,229 @@
+<div class="card__data">
+                <h3 class="card__name">Lotw Fox</h3>
+                <p class="card__description">
+                   Passionate about development and design, 
+                   I carry out projects at the request of users.
+                </p>
+
+                <a href="#" class="card__button">View More</a>
+             </div>
+
+
+             <div class='walkthrough show reveal'>
+  <div class='walkthrough-pagination'>
+    <a class='dot active'></a>
+    <a class='dot'></a>
+    <a class='dot'></a>
+    <a class='dot'></a>
+    <a class='dot'></a>
+  </div>
+  <div class='walkthrough-body'>
+    <ul class='screens animate'>
+      <li class='screen active'>
+        <div class='media logo'>
+          <img class='logo' src='https://s3.amazonaws.com/jebbles-codepen/icon.png'>
+        </div>
+        <h3>
+          Product Intro
+          <br>Walkthrough</br>
+        </h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
+      </li>
+      <li class='screen'>
+        <div class='media books'>
+          <img class='icon' src='https://s3.amazonaws.com/jebbles-codepen/book_icon_1.png'>
+          <img class='icon' src='https://s3.amazonaws.com/jebbles-codepen/book_icon_2.png'>
+          <img class='icon' src='https://s3.amazonaws.com/jebbles-codepen/book_icon_3.png'>
+        </div>
+        <h3>
+          Data and File
+          <br>Management</br>
+        </h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
+      </li>
+      <li class='screen'>
+        <div class='media bars'>
+          <img class='icon' src='https://s3.amazonaws.com/jebbles-codepen/bar_icon_axis.png'>
+          <img class='icon' src='https://s3.amazonaws.com/jebbles-codepen/bar_icon_3.png'>
+          <img class='icon' src='https://s3.amazonaws.com/jebbles-codepen/bar_icon_2.png'>
+          <img class='icon' src='https://s3.amazonaws.com/jebbles-codepen/bar_icon_1.png'>
+        </div>
+        <h3>
+          Analytics
+          <br>and Metrics</br>
+        </h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
+      </li>
+      <li class='screen'>
+        <div class='media files'>
+          <img class='icon' src='https://s3.amazonaws.com/jebbles-codepen/file_icon_1.png'>
+          <img class='icon' src='https://s3.amazonaws.com/jebbles-codepen/file_icon_2.png'>
+          <img class='icon' src='https://s3.amazonaws.com/jebbles-codepen/file_icon_3.png'>
+          <img class='icon' src='https://s3.amazonaws.com/jebbles-codepen/file_icon_4.png'>
+        </div>
+        <h3>
+          Reporting
+          <br>and Insights</br>
+        </h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
+      </li>
+      <li class='screen'>
+        <div class='media comm'>
+          <img class='icon' src='https://s3.amazonaws.com/jebbles-codepen/comm_icon_1.png'>
+          <img class='icon' src='https://s3.amazonaws.com/jebbles-codepen/comm_icon_2.png'>
+        </div>
+        <h3>
+          Communications
+          <br>Tools</br>
+        </h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
+      </li>
+    </ul>
+    <button class='prev-screen'>
+      <i class='icon-angle-left'></i>
+    </button>
+    <button class='next-screen'>
+      <i class='icon-angle-right'></i>
+    </button>
+  </div>
+
+
+
+  <div class="slider-container">
+            <h2 class="heading">Choose Your <span>Subject</span></h2>
+            <img class="mySlides" src="./Chemistry.jpg">
+            <img class="mySlides" src="./physics (1).jpg">
+            <img class="mySlides" src="./maths.jpg">
+            
+        </div>
+        <div class="nav-button">
+             <button class="w3-button w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+            <button class="w3-button w3-display-right" onclick="plusDivs(+1)">&#10095;</button>
+        </div>
+
+
+        <div class="container">
+         <div class="card__container">
+            <article class="card__article">
+               <img src="assets/img/landscape-1.png" alt="image" class="card__img">
+
+               
+            </article>
+
+            <article class="card__article">
+               <img src="assets/img/landscape-2.png" alt="image" class="card__img">
+
+               <div class="card__data">
+                  <span class="card__description">Poon Hill, Nepal</span>
+                  <h2 class="card__title">Starry Night</h2>
+                  <a href="#" class="card__button">Read More</a>
+               </div>
+            </article>
+
+            <article class="card__article">
+               <img src="assets/img/landscape-3.png" alt="image" class="card__img">
+
+               <div class="card__data">
+                  <span class="card__description">Bojcin Forest, Serbia</span>
+                  <h2 class="card__title">Path Of Peace</h2>
+                  <a href="#" class="card__button">Read More</a>
+               </div>
+            </article>
+         </div>
+      </div>
+
+
+
+
+      <section class="slider">
+        
+        <div class='walkthrough show reveal'>
+            <div class='walkthrough-pagination'>
+              <a class='dot active'></a>
+              <a class='dot'></a>
+              <a class='dot'></a>
+              <a class='dot'></a>
+              <a class='dot'></a>
+            </div>
+            <div class='walkthrough-body'>
+              <ul class='screens animate'>
+                <li class='screen active'>
+                  <div class='media logo'>
+                    <img class='logo' src='./physics.gif' style="border-radius: 3rem; scale: 2.3; margin-left: 20px; margin-top: 60px;;">
+                  </div>
+                  <h3>
+                    Lets Start With
+                    <br>Physics</br>
+                  </h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
+                </li>
+                <li class='screen'>
+                  <div class='media books'>
+                    <img class='icon' src='https://s3.amazonaws.com/jebbles-codepen/book_icon_1.png'>
+                    <img class='icon' src='https://s3.amazonaws.com/jebbles-codepen/book_icon_2.png'>
+                    <img class='icon' src='https://s3.amazonaws.com/jebbles-codepen/book_icon_3.png'>
+                  </div>
+                  <h3>
+                    Data and File
+                    <br>Management</br>
+                  </h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
+                </li>
+                <li class='screen'>
+                  <div class='media bars'>
+                    <img class='icon' src='https://s3.amazonaws.com/jebbles-codepen/bar_icon_axis.png'>
+                    <img class='icon' src='https://s3.amazonaws.com/jebbles-codepen/bar_icon_3.png'>
+                    <img class='icon' src='https://s3.amazonaws.com/jebbles-codepen/bar_icon_2.png'>
+                    <img class='icon' src='https://s3.amazonaws.com/jebbles-codepen/bar_icon_1.png'>
+                  </div>
+                  <h3>
+                    Analytics
+                    <br>and Metrics</br>
+                  </h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
+                </li>
+                <li class='screen'>
+                  <div class='media files'>
+                    <img class='icon' src='https://s3.amazonaws.com/jebbles-codepen/file_icon_1.png'>
+                    <img class='icon' src='https://s3.amazonaws.com/jebbles-codepen/file_icon_2.png'>
+                    <img class='icon' src='https://s3.amazonaws.com/jebbles-codepen/file_icon_3.png'>
+                    <img class='icon' src='https://s3.amazonaws.com/jebbles-codepen/file_icon_4.png'>
+                  </div>
+                  <h3>
+                    Reporting
+                    <br>and Insights</br>
+                  </h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
+                </li>
+                <li class='screen'>
+                  <div class='media comm'>
+                    <img class='icon' src='https://s3.amazonaws.com/jebbles-codepen/comm_icon_1.png'>
+                    <img class='icon' src='https://s3.amazonaws.com/jebbles-codepen/comm_icon_2.png'>
+                  </div>
+                  <h3>
+                    Communications
+                    <br>Tools</br>
+                  </h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
+                </li>
+              </ul>
+              
+            </div>
+        </div>
+        <div class="nav-button">
+        <button class='prev-screen'>
+            <i class='bx bx-chevron-left'></i>
+          </button>
+          <button class='next-screen'>
+            <i class='bx bx-chevron-right'></i>
+          </button>
+        </div>
+      </section>
+
+
+
+
+
+
+
+     
